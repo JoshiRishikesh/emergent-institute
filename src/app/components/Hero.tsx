@@ -33,7 +33,7 @@ const item: Variants = {
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden py-20 bg-[#fafcfe]">
+    <section className="relative min-h-screen flex items-center overflow-hidden pb-20 pt-5 bg-[#fafcfe]">
       
       {/* Soft Emotional Background (Light Theme) */}
       <div className="absolute inset-0 -z-10">
@@ -64,7 +64,7 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="text-xl text-slate-600 font-medium max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                Experience the <span className="text-slate-900 font-bold underline decoration-sky-400 decoration-2 underline-offset-4">Emergent Advantage</span>. We combine rigorous academics with emotional growth to build Pune's future toppers.
+                Experience the <span className="text-slate-900 font-bold">Emergent Advantage</span>. We combine rigorous academics with emotional growth to build Pune's future toppers.
               </p>
             </motion.div>
 

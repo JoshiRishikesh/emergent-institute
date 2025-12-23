@@ -1,5 +1,5 @@
 // app/page.tsx
-import LandingPage from "./about/landingPage/page";
+import LandingPage from "./landingPage/page";
 
 
 
