@@ -82,7 +82,7 @@ export default function ContactPreview() {
                   </h4>
                 </div>
                 
-                <Link href="https://maps.google.com" target="_blank" className="inline-flex items-center justify-center gap-4 bg-white text-slate-900 px-8 py-4 md:py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-2xl group/btn">
+                <Link href="https://maps.app.goo.gl/FayRgJSnx7H9pBv8A" target="_blank" className="inline-flex items-center justify-center gap-4 bg-white text-slate-900 px-8 py-4 md:py-5 rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-slate-900 hover:text-white transition-all shadow-2xl group/btn">
                   Get Directions <FiExternalLink className="group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform" />
                 </Link>
               </div>
