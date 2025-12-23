@@ -15,8 +15,8 @@ export default function AboutHero() {
       
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-linear-to-br from-sky-100/40 to-indigo-100/40 blur-3xl" />
-        <div className="absolute bottom-[10%] left-[-5%] w-[400px] h-[400px] rounded-full bg-linear-to-tr from-blue-50/50 to-transparent blur-3xl" />
+        <div className="absolute top-[-10%] right-[-5%] w-125 h-125 rounded-full bg-linear-to-br from-sky-100/40 to-indigo-100/40 blur-3xl" />
+        <div className="absolute bottom-[10%] left-[-5%] w-100 h-100 rounded-full bg-linear-to-tr from-blue-50/50 to-transparent blur-3xl" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-5 md:px-6">
@@ -38,7 +38,7 @@ export default function AboutHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-[1] text-slate-900 mb-8">
+              <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-none text-slate-900 mb-8">
                 Where <span className="text-sky-500 italic font-serif">Aspiration</span> <br />
                 Meets Excellence.
               </h1>
@@ -92,7 +92,7 @@ export default function AboutHero() {
                 <motion.div 
                   key={i}
                   whileHover={{ x: 5 }}
-                  className="p-6 rounded-[2rem] bg-white border border-slate-100 shadow-xl shadow-slate-200/30 flex items-center gap-5"
+                  className="p-6 rounded-4xl bg-white border border-slate-100 shadow-xl shadow-slate-200/30 flex items-center gap-5"
                 >
                   <div className={`w-14 h-14 shrink-0 rounded-2xl ${stat.lightColor} flex items-center justify-center`}>
                     <stat.icon size={24} className={stat.color.replace('bg-', 'text-')} />
@@ -105,7 +105,7 @@ export default function AboutHero() {
               ))}
               
               {/* Trust Badge */}
-              <div className="p-6 rounded-[2rem] bg-linear-to-br from-slate-900 to-slate-800 text-white flex flex-col justify-center">
+              <div className="p-6 rounded-4xl bg-linear-to-br from-slate-900 to-slate-800 text-white flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-2">
                   <FiCheckCircle className="text-sky-400" />
                   <span className="text-[10px] font-bold uppercase tracking-widest">ISO Certified</span>

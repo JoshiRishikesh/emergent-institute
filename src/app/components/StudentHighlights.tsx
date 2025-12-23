@@ -112,7 +112,7 @@ export default function StudentHighlights() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className={`group relative rounded-[2rem] md:rounded-[2.5rem] p-5 md:p-6 flex flex-col justify-between transition-all duration-500 overflow-hidden bg-white border border-slate-100 hover:shadow-2xl hover:shadow-sky-100
+              className={`group relative rounded-4xl md:rounded-[2.5rem] p-5 md:p-6 flex flex-col justify-between transition-all duration-500 overflow-hidden bg-white border border-slate-100 hover:shadow-2xl hover:shadow-sky-100
                 ${/* On mobile, all cards take 1 column. On md, they follow the bento size. */ ''}
                 ${student.size === 'large' ? 'md:col-span-2 md:row-span-2' : student.size === 'middle' ? 'md:col-span-2 md:row-span-1' : 'md:col-span-1 md:row-span-1'}`}
             >
@@ -160,7 +160,7 @@ export default function StudentHighlights() {
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          className="mt-12 md:mt-16 bg-slate-900 rounded-[2rem] md:rounded-[2.5rem] p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left"
+          className="mt-12 md:mt-16 bg-slate-900 rounded-4xl md:rounded-[2.5rem] p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left"
         >
           <div>
             <h4 className="text-2xl md:text-3xl font-black text-white">Your Success Story Begins Here.</h4>

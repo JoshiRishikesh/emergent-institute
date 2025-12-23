@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     // Changed: Removed pointer-events-none to ensure sticky reliability 
     // Added: w-full and z-[100] to stay above all content
-    <header className="sticky top-0 left-0 w-full z-[100] flex justify-center pb-1 md:pb-1 p-4 md:p-6 transition-colors duration-300">
+    <header className="sticky top-0 left-0 w-full z-100 flex justify-center pb-1 md:pb-1 p-4 md:p-6 transition-colors duration-300">
       <motion.nav 
         initial={{ y: -100, opacity: 0 }} 
         animate={{ y: 0, opacity: 1 }} 
@@ -114,7 +114,7 @@ const Navbar = () => {
               initial={{ opacity: 0, scale: 0.95, y: -10 }} 
               animate={{ opacity: 1, scale: 1, y: 0 }} 
               exit={{ opacity: 0, scale: 0.95, y: -10 }} 
-              className="absolute top-full left-0 right-0 mt-3 overflow-hidden rounded-[2rem] bg-white border border-slate-200 shadow-2xl md:hidden p-4 origin-top"
+              className="absolute top-full left-0 right-0 mt-3 overflow-hidden rounded-4xl bg-white border border-slate-200 shadow-2xl md:hidden p-4 origin-top"
             >
               <div className="flex flex-col gap-1">
                 {navLinks.map((link, i) => (

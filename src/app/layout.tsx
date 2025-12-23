@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="...">
         
         {/* THE UNITARY STICKY HEADER */}
-        <div className="sticky top-0 z-[100] w-full flex flex-col">
+        <div className="sticky top-0 z-100 w-full flex flex-col">
           <Navbar />
           {/* The Ticker now sits naturally below the Navbar */}
           <InfiniteTicker />
