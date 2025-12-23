@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import InfiniteTicker from "@/app/components/InfiniteTicker";
 import Footer from "@/app/components/Footer";
 import ContactPreview from "@/app/components/ContactPreview";
+import FloatingWhatsApp from "@/app/components/FloatingWhatsApp";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main className="relative min-h-screen">
           {children}
+          <FloatingWhatsApp />
         </main>
 
         <ContactPreview />
