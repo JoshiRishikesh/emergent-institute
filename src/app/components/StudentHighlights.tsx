@@ -10,7 +10,7 @@ const STUDENTS = [
     name: "Jaydeep Tupake", 
     achievement: "10th CBSE: 97%", 
     stream: "Science Topper", 
-    image: "/students/JaydeepTupke.avif", 
+    image: "/students/Jaydeep_Tupke.avif", 
     accent: "bg-blue-600", 
     size: "large", 
     badge: "100/100 SCIENCE",
